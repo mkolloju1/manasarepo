@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features ="C://ApiTestCucumber//src//test//java//features//feature1.feature",
+		features ="C://ApiTestCucumber//src//test//java//features//features",
 		glue="StepDefination",
 		tags="@Given")
 //glue a parameter is used to represent SS

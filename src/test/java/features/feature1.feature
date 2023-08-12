@@ -12,4 +12,4 @@ Given user in NetBanking page
 When user_enters_credentials user id "test2" and password "21234"
 And click on Submit
 Then Homepage is displayed
-And Cards are displayed is "false" and true
+And Cards are displayed is "false" and true and test
