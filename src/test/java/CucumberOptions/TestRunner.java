@@ -7,7 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features ="C://ApiTestCucumber//src//test//java//features//feature1.feature",
-		glue="StepDefination")
+		glue="StepDefination",
+		tags="@Given")
 //glue a parameter is used to represent SS
 //testrunner and step definition should have same parent and provide glue and provide package name to give knowledge
 //there should be one mapping implementation for each gherkin line
