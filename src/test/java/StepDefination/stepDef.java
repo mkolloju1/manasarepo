@@ -29,11 +29,18 @@ public class stepDef {
 	public void click_on_submit() {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println("click on Submit");
+	    System.out.println("click on Submit");
+	    System.out.println("click on Submit");
+	    System.out.println("click on Submit");
+	    System.out.println("click on Submit");
+	    
 	}
 
 	@Then("Homepage is displayed")
 	public void homepage_is_displayed() {
 	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("Homepage is displayed");
+	    System.out.println("Homepage is displayed");
 	    System.out.println("Homepage is displayed");
 	}
 
